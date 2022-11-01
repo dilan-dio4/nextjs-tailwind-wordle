@@ -1,0 +1,42 @@
+{
+  "name": "nextjs-tailwind-wordle",
+  "version": "1.0.0",
+  "author": "dilan-dio4",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier-format": "prettier --config prettier.config.js '**/*{.ts,.tsx,.js,.jsx}' --write"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "cross-fetch": "^3.1.5",
+    "dayjs": "^1.11.3",
+    "flowbite": "^1.4.7",
+    "flowbite-react": "0.0.25",
+    "nanoid": "^3.3.4",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "use-async-effect": "^2.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/mixpanel-browser": "^2.38.0",
+    "@types/node": "17.0.17",
+    "@types/react": "17.0.39",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "next-sitemap": "^2.5.20",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.5.5"
+  }
+}

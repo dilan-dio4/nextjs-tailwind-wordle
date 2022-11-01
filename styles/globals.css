@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111827;
+}
+
+a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: initial;
+  outline: none;
+}
+
+hr {
+  height: 1px;
+  color: #1d222e;
+  background-color: #1d222e;
+  border: none;
+}
+
+img[src^="/avatars/"][src$=".svg"] {
+  background-color: #663399;
+  padding: 5px !important;
+}
+
+.h-modal {
+  @apply  !h-full;
+}
+
+.h-modal>div {
+  @apply  !h-auto;
+}
+
+.tooltip-display-none.invisible {
+  width: 0px !important;
+  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+  .bootstrap-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bootstrap-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bootstrap-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bootstrap-container {
+    max-width: 1140px;
+  }
+}
+
+.bootstrap-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}

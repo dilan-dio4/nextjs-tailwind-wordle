@@ -1,0 +1,42 @@
+.button-root:not(.force-hover):hover .dropdown-root::after, .button-root:not(.force-hover):hover .dropdown-root::before {
+    @apply bg-transparent;
+}
+
+.dropdown-root::after {
+    content: "";
+    height: 90%;
+    width: 1px;
+    @apply bg-gray-800;
+    right: 0px;
+    position: absolute;
+}
+
+.dropdown-root::before {
+    content: "";
+    height: 90%;
+    width: 1px;
+    @apply bg-gray-800;
+    left: 0px;
+    position: absolute;
+}
+
+.dropdown-root {
+    @apply ease-in-out duration-75;
+}
+
+.force-hover > span {
+    @apply !bg-gray-900;
+}
+
+.force-hover {
+    @apply !ring-transparent !bg-gradient-to-r;
+}
+
+.dropdown-width li {
+    text-align: center;
+}
+
+.dropdown-width button {
+    width: 0px;
+    max-width: 0px;
+}

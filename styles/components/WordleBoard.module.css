@@ -1,0 +1,57 @@
+.root {
+    @apply relative mx-auto border-solid border-2 flex items-center justify-center text-3xl font-bold rounded text-white;
+}
+
+.READY {
+    @apply bg-transparent border-slate-600;
+}
+
+.FILLED {
+    @apply bg-transparent border-slate-100;
+}
+
+.WRONG {
+    @apply text-white bg-slate-700 dark:border-slate-700;
+}
+
+.SUCCESS-WRONG-POSITION {
+    @apply text-white bg-amber-400 border-amber-400;
+}
+
+.SUCCESS-CORRECT-POSITION {
+    @apply text-white bg-green-500 border-green-500;
+}
+
+.ticket-root {
+    @apply w-14 h-14 justify-center absolute flex items-center text-slate-400;
+}
+
+.root {
+    @apply w-11 h-11;
+}
+
+.board-grid {
+    @apply gap-y-1 w-[242px];
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 180px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .root {
+        @apply w-14 h-14;
+    }
+    .board-grid {
+        @apply gap-y-[5px] w-[305px];
+    }
+    .ticket-root {
+        @apply justify-end;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}

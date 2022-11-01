@@ -1,0 +1,61 @@
+.root-key {
+    @apply bg-slate-700 text-white border-transparent rounded border-solid border-2 flex items-center justify-center flex-1 flex-shrink font-bold text-base mx-0.5 p-1 capitalize select-none;
+    min-height: 50px;
+    max-width: 45px;
+    width: 100%;
+    text-decoration: inherit;
+    transition: all 0.2s;
+}
+
+.meta-key {
+    max-width: 62px !important;
+}
+
+.disabled-key {
+    opacity: 0.6;
+}
+
+.key {
+    @apply cursor-pointer;
+    opacity: 1;
+}
+
+.key:focus {
+    outline: 0;
+}
+
+.key:hover {
+    @apply bg-slate-500;
+}
+
+.key:active {
+    @apply bg-slate-600;
+}
+
+.KEY-STATUS-SUCCESS-WRONG-POSITION {
+    @apply  bg-amber-500;
+}
+
+.KEY-STATUS-SUCCESS-WRONG-POSITION:hover {
+    @apply  bg-amber-400;
+}
+
+.KEY-STATUS-SUCCESS-WRONG-POSITION:active {
+    @apply  bg-amber-500;
+}
+
+.KEY-STATUS-SUCCESS-CORRECT-POSITION {
+    @apply  bg-green-500;
+}
+
+.KEY-STATUS-SUCCESS-CORRECT-POSITION:hover {
+    @apply  bg-green-400;
+}
+
+.KEY-STATUS-SUCCESS-CORRECT-POSITION:active {
+    @apply  bg-green-500;
+}
+
+.KEY-STATUS-WRONG {
+    background: #1c2538;
+}
