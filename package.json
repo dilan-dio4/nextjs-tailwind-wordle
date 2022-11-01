@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
-    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "prettier-format": "prettier --config prettier.config.js '**/*{.ts,.tsx,.js,.jsx}' --write"
@@ -33,7 +32,6 @@
     "autoprefixer": "^10.4.7",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
-    "next-sitemap": "^2.5.20",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "tailwindcss": "^3.0.24",
