@@ -20,7 +20,7 @@ All game-related data is stored locally with `localStorage`. To peep your the an
 Finally, open 'localhost:3000' in your web browser.
 ```
 
-Visit the live demo here: 
+Visit the live demo here: [https://nextjs-tailwind-wordle.netlify.app/](https://nextjs-tailwind-wordle.netlify.app/)
 
 ## License
 
